@@ -1,0 +1,42 @@
+OPTIONLAR
+
+BIRINCISI
+   <p>
+        <label for="avenger">Select your favourite Avengers</label>
+        <select name="avenger" id="avenger" multiple size="7">
+            <optgroup label="Strongest Ones">
+                <option value="thor" selected>Thor</option>
+                <option value="tony">Tony Stark</option>
+            </optgroup>
+            <optgroup label="Most Favourited Ones">
+                <option value="captain">Captain America</option>
+                <option value="hulk">Hulk</option>
+                <option value="panther">Black Panther</option>
+                <option value="widow">Black Widow</option>
+                <option value="other">Other</option>
+            </optgroup>
+        </select>
+    </p>
+IKINCISI:
+    <p>
+        <label for="avenger">Select your favourite Avenger</label>
+        <input type="text" name="avenger" id="avenger" list="avengers-list">
+        <datalist id="avengers-list">
+            <option value="Thor">
+            <option value="Captain">
+            <option value="Tony">
+            <option value="Hulk">
+            <option value="Natasha">
+            <option value="Other">
+        </datalist>
+    </p>
+
+FREE IMAGES
+1- https://loremipsum.io/
+2- https://unsplash.com/
+3- https://www.pexels.com/tr-tr/
+4- https://gratisography.com/
+5- https://pixabay.com/
+6- https://www.irfanview.com/ (You can resize and crop)
+7- https://www.canva.com/tr_tr/
+8- https://tinypng.com/ (Smaller file size)
